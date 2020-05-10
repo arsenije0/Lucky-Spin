@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lucky Spin</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/untitled.png">
+
+</head>
+<body>
+
+	<div id="intro">
+		<div id="intro-spin"></div>
+		<p>Welcome to</p>
+		<h1>LUCKY SPIN</h1>
+	</div>
+
+	<div id="main-container">
+		<div id="main-1" class="main">
+			
+			<div id="reel-1-card-1" class="card-cl card-1-position">
+				<div id="shape10" class="shape"></div>	
+			</div>
+			<div id="reel-1-card-2" class="card-cl card-2-position">
+				<div id="shape11" class="shape"></div>
+			</div>
+			<div id="reel-1-card-3" class="card-cl card-3-position">
+				<div id="shape12" class="shape"></div>
+			</div>
+			<div id="reel-1-card-4" class="card-cl card-4-position">
+				<div id="shape13" class="shape"></div>
+			</div>
+			
+		</div>
+		<div id="main-2" class="main">
+			
+			<div id="reel-2-card-1" class="card-cl card-1-position">
+				<div id="shape20" class="shape"></div>
+			</div>
+			<div id="reel-2-card-2" class="card-cl card-2-position">
+				<div id="shape21" class="shape"></div>
+			</div>
+			<div id="reel-2-card-3" class="card-cl card-3-position">
+				<div id="shape22" class="shape"></div>
+			</div>
+			<div id="reel-2-card-4" class="card-cl card-4-position">
+				<div id="shape23" class="shape"></div>
+			</div>
+			
+		</div>
+		<div id="main-3" class="main">
+			
+			<div id="reel-3-card-1" class="card-cl card-1-position">
+				<div id="shape30" class="shape"></div>
+			</div>
+			<div id="reel-3-card-2" class="card-cl card-2-position">
+				<div id="shape31" class="shape"></div>
+			</div>
+			<div id="reel-3-card-3" class="card-cl card-3-position">
+				<div id="shape32" class="shape"></div>
+			</div>
+			<div id="reel-3-card-4" class="card-cl card-4-position">
+				<div id="shape33" class="shape"></div>
+			</div>
+			
+		</div>
+		<div id="main-4" class="main">
+			
+			<div id="reel-4-card-1" class="card-cl card-1-position">
+				<div id="shape40" class="shape"></div>
+			</div>
+			<div id="reel-4-card-2" class="card-cl card-2-position">
+				<div id="shape41" class="shape"></div>
+			</div>
+			<div id="reel-4-card-3" class="card-cl card-3-position">
+				<div id="shape42" class="shape"></div>
+			</div>
+			<div id="reel-4-card-4" class="card-cl card-4-position">
+				<div id="shape43" class="shape"></div>
+			</div>
+			
+		</div>
+		<div id="main-5" class="main">
+			
+			<div id="reel-5-card-1" class="card-cl card-1-position">
+				<div id="shape50" class="shape"></div>
+			</div>
+			<div id="reel-5-card-2" class="card-cl card-2-position">
+				<div id="shape51" class="shape"></div>
+			</div>
+			<div id="reel-5-card-3" class="card-cl card-3-position">
+				<div id="shape52" class="shape"></div>
+			</div>
+			<div id="reel-5-card-4" class="card-cl card-4-position">
+				<div id="shape53" class="shape"></div>
+			</div>
+			
+		</div>
+
+		<div id="report">
+			<p></p>
+			<h1></h1>
+			<p></p>
+			<p></p>
+		</div>
+
+	</div>
+
+	<div id="control-board">
+
+		<div id="justForHover">
+			<button id="start">SPIN</button>
+			<div id="start-two"></div>
+		</div>
+			
+		<div id="score">
+			<p id="score-p-1">CREDIT:</p>
+			<p id="score-p"></p>
+		</div>
+
+		<div id="winings">
+			<p id="winings-p">0</p>
+			<div id="winings-div">
+				<p>WIN AMOUNT:</p>
+			</div>
+		</div>
+		
+		<div class="up-bet" id="up-bet">
+			<p class="up-bet-p" id="up-bet-p">+</p>
+		</div>
+			<div id="bet-div">
+				<p id="bet-p">LINE BET:</p>
+				<div id="bet-amount"></div>
+			</div>
+		<div class="down-bet" id="down-bet">
+			<p class="down-bet-p" id="down-bet-p">-</p>
+		</div>
+
+		<div id="total-bet-amount-div">
+			<p>TOTAL BET:</p>
+			<p id="total-bet-amount">12</p>
+		</div>
+
+		<div id="up-line" class="up-bet">
+			<p id="up-line-p" class="up-bet-p">+</p>
+		</div>
+			<div id="line-div">
+				<p id="bet-line">BET LINES:</p>
+				<div id="bet-line-number"></div>
+			</div>
+		<div id="down-line" class="down-bet">
+			<p id="down-line-p" class="down-bet-p">-</p>
+		</div>
+
+		<div id="restart">RESTART</div>
+
+		<div id="lines">
+			<div id="right"></div>
+			<div class="see-line">see<br>the lines:</div>
+			<p id="path-number"></p>
+			<div id="left"></div>
+		</div>
+
+		<div id="to-help">HELP</div>
+		
+	</div>
+
+	<div id="help">
+
+		<div class="btn" id="next">NEXT</div>
+		<div class="btn" id="back">BACK</div>
+
+		<div id="help-1">
+			<div id="hc-0" class="occ">
+				<div class="gold-help"></div>
+				<ul>
+					<li>
+						<p>5:</p>
+						<p>10,000</p>
+					</li>
+					<li>
+						<p>4:</p>
+						<p>2,000</p>
+					</li>
+					<li>
+						<p>3:</p>
+						<p>200</p>
+					</li>
+					<li>
+						<p>2:</p>
+						<p>10</p>
+					</li>
+				</ul>
+			</div>
+
+
+			<div id="hc-1" class="help-container">
+				<div class="occ">
+					<div class="gold2-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>750</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>100</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>25</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+	
+				<div class="occ">
+					<div class="gold3-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>750</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>100</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>25</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="hc-2" class="help-container">
+				<div class="occ">
+					<div class="circle-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>400</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>100</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>15</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+	
+				<div class="occ">
+					<div class="circle2-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>250</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>75</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>10</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="occ">
+					<div class="circle3-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>250</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>50</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>10</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="help-2">
+			<div id="hc-3" class="help-container">
+				<div class="occ">
+					<div class="square-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>125</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>50</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>10</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+	
+				<div class="occ">
+					<div class="square2-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>100</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>50</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>5</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="occ">
+					<div class="square3-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>100</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>25</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>5</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="hc-4" class="help-container">
+				<div class="occ">
+					<div class="triangle-help"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>100</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>25</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>5</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+	
+				<div class="occ">
+					<div class="triangle-help trinagle2"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>100</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>25</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>5</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="occ">
+					<div class="triangle-help trinagle2"></div>
+					<ul>
+						<li>
+							<p>5:</p>
+							<p>100</p>
+						</li>
+						<li>
+							<p>4:</p>
+							<p>25</p>
+						</li>
+						<li>
+							<p>3:</p>
+							<p>5</p>
+						</li>
+						<li>
+							<p>2:</p>
+							<p>2</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="hc-5">
+				<div class="wildcard-help">WILDCARD</div>
+				<p>It substitutes any other symbol.</p>
+			</div>
+
+		</div>
+
+		<div id="help-3">
+			<div id="hc-6">		
+				<ul>
+					<li>All line wins pay left to right.</li>
+					<li>All line wins are multiplied by Line Bet.</li>
+					<li>There are nine lines.</li>
+					<li>Maximum line bet is 50 credits.</li>
+				</ul>
+			</div>
+			
+		</div>
+
+	</div>
+
+<script src="./js/mylib.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
